@@ -1,0 +1,41 @@
+#pagedegarde{
+    display: flex;
+    justify-content: start;
+}
+
+#pdgImg{
+    width: 320px;
+}
+
+#pdgImg img{
+    width: 100%;
+    object-fit: cover;
+}
+
+#pdg_text h2{
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+#pdgStats{
+    display: flex;
+}
+
+#pdgRate{
+    display: flex;
+}
+
+#pdgButt{
+    margin-top: 3rem;
+    background-color: #5151ff;
+    color: #ffffff;
+}
+
+#but1{
+    width: 100px;
+    border-radius: 25px;
+}
+#but2{
+    width: 300px;
+    border-radius: 50px;
+}

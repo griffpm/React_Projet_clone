@@ -3,6 +3,7 @@ import './App.css';
 import HomePage from "./components/page/HomePage";
 import Navigation from "./components/header/Navigation";
 import Footer from "./components/footer/Footer";
+import StoryPage from "./components/page/StoryPage";
 
 
 function App() {
@@ -11,6 +12,7 @@ function App() {
       <Navigation />
       <Routes>
         <Route path="/" element=<HomePage/> />
+        <Route path="/story" elemnent=<StoryPage/> />
       </Routes>
       <Footer />
     </Router>

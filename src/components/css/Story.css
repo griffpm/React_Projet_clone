@@ -55,3 +55,26 @@
     color:#ff0055;
 
 }
+/*------------------------------------*/
+/*Card Table*/
+#CardTable{
+    display: none;
+}
+#CardTable h3{
+    font-size: 1rem;
+    font-weight: 300;
+    color: #cd8bff;
+    border-bottom: 1px solid #bebebe;
+    
+
+}
+#CardTable h3 span{
+    font-weight: 500;
+    color: #1f1f1f;
+}
+
+#listeChapter{
+    display: grid;
+    grid-template-columns: 700px 700px;
+    
+}

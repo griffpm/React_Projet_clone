@@ -1,6 +1,13 @@
+#story_content{
+    background-color: #cccccc;
+    display: flex;
+    justify-content: center;
+}
+/*---------------------------------/*/
 #pagedegarde{
     display: flex;
     justify-content: start;
+    width: clamp(320px, 50%, 1500px);
 }
 
 #pdgImg{
@@ -38,4 +45,13 @@
 #but2{
     width: 300px;
     border-radius: 50px;
+}
+
+/*------------------------------------*/
+/*cardtag*/
+
+#CardTag{
+    background-color: #ffc0cb;
+    color:#ff0055;
+
 }

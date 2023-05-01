@@ -1,0 +1,49 @@
+/*section 1 */
+#section1{
+    
+    display: flex;
+    justify-content: center;
+
+  }
+
+  #section1_content{
+    width: clamp( 320px, 50%, 1500px);
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5%;
+  }
+  #section1 h2{
+    font-weight: 500;
+    font-size: 1.5rem;
+  }
+  #card2{
+    width: clamp( 320px, 47.5%, 750px);
+    height:300px;
+    
+  }
+  
+  #card3{
+    display: flex;
+    justify-content: space-between;
+    padding: 5px 0;
+    border-bottom: 1px solid rgba(128, 128, 128, 0.502);
+    
+  }
+  #card3 h3{
+    font-weight: 400;
+    font-size: 1.25rem;
+  }
+  #c3_text{
+    margin: 10px 0;
+    padding: 2px 0;
+  }
+  #card3 p{
+    margin-top: 5px;
+    font-size: 0.6rem;
+    color: gray;
+  }
+  #card3 img{
+    height: 50px;
+    width: 100px;
+  }

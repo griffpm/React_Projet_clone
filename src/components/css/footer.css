@@ -1,0 +1,53 @@
+footer{
+    background-color: #373737;
+    color: #cdcdcd;
+  }
+  
+  #foot{
+    width: clamp( 250px, 50%, 1500px);
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+  }
+  #foot h2{
+    font-size: 1.5rem;
+    font-weight: 500;
+    margin-top: 20px;
+    color: white;
+    text-transform: capitalize;
+  }
+  #foot h3{
+    font-size: 1rem;
+    font-weight: 400;
+    color: white;
+    text-transform: capitalize;
+  }
+  
+  
+  #reseaux{
+    margin-top: 5rem;
+    display: flex;
+    justify-content: space-evenly;
+  }
+  
+  #listes{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+  }
+  
+  #listes h3{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin: 20px 0;
+    text-transform: uppercase;
+  }
+  
+  #listes ul li{
+    margin: 10px 0;
+  
+  }
+

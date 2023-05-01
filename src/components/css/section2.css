@@ -1,0 +1,108 @@
+/*Setion2*/
+#section2{
+    
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+  }
+
+  #s2_content{
+    width: clamp( 320px, 50%, 1500px);
+    margin-top: 50px;
+  }
+  
+  #section2 h2{
+    font-weight: 500;
+    margin: 10px auto;
+    font-size: 1.5rem;
+  }
+  #section2_content{
+    display: flex;
+    justify-content: center;
+    gap: 5%;
+    padding-top: 10px;
+    border-top: 1px rgba(128, 128, 128, 0.508) solid;
+  }
+  #card4{
+    width: clamp(320px, 30%, 500px);
+  }
+  #card4_img{
+    background-image: url("../../../public/img/13.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 200px;
+    display: flex;
+    justify-content: center;
+  }
+  #card4_img img{
+    padding-top: 20px;
+    padding-bottom: 20px;
+  }
+  #card4_text{
+    margin-top: 10px;
+    width: 200px;
+    text-align: center;
+    
+  }
+  #card4_text h3{
+    font-weight: 500;
+  }
+  #card4_text p{
+    color: gray;
+    margin: 5px 0;
+  }
+  
+  #s2-grid{
+    display: grid;
+    grid-template-columns: 110px 110px 110px 110px 110px;
+    row-gap: 5px;
+    column-gap: 10px;
+    
+  }
+  #card5{
+    width: 110px;
+  }
+  #card5 h3{
+    font-weight: 500;
+    text-transform: capitalize;
+    height: 2.8rem;
+    overflow: hidden;
+  }
+  #card5 p{
+    color: gray;
+    font-size: 0.7rem;
+  }
+
+  @media (max-width: 480px){
+    #section2{
+      display: block;
+      margin: 50px auto;
+    }
+
+    #s2-grid{
+      margin-top: 20px;
+      display: grid;
+      grid-template-columns: 320px;
+      row-gap: 5px;
+      column-gap: 10px;
+    }
+    #card5{
+      width: 300px;
+      margin: 10px auto;
+    }
+
+    #card5 img{
+      width: 320px;
+    }
+    #card5 h3{
+      font-weight: 500;
+      text-transform: capitalize;
+      height: 3rem;
+      overflow: hidden;
+      font-size: 2rem;
+    }
+    #card5 p{
+      color: gray;
+      font-size: 1.5rem;
+    }
+  }

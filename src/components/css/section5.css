@@ -1,0 +1,82 @@
+#section5{
+    display: flex;
+    justify-content: center;
+  }
+  #section5_content{
+    width: clamp( 320px, 50%, 1500px);
+    margin-top: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  #section5_img{
+    width: clamp(320px, 49%, 750px);
+  }
+  #section5_contenue{
+    width: 49%;
+  }
+  #section5_title{
+    display: flex;
+    flex-wrap: wrap;
+    
+    padding-bottom: 10px;
+    border-bottom: 1px rgba(128, 128, 128, 0.508) solid;
+  }
+  #section5_title h2{
+    font-weight: 500;
+  }
+  #section5_title p{
+    color: gray;
+  }
+  
+  #section5_title p span{
+    background-color: #80808088;
+    width: 20px;
+    margin: 5px;
+    padding: 5px;
+    border-radius: 5px;
+    color: black;
+  }
+  #cardFree{
+    display: flex;
+  }
+  #cardFree_img{
+    width: 500px;
+    margin-top: 5px;
+  }
+  #cardFree_text{
+    margin-left: 5px;
+  }
+  #cardFree_text h3{
+    font-weight: 500;
+    font-size: 1rem;
+  }
+  #cardFree_text p{
+    margin: 5px 0;
+    color: gray;
+    font-weight: 300;
+    font-size: 0.7rem;
+  }
+  #cardFree_rating{
+    display: flex;
+    margin: 5px 0;
+    color: gray;
+    font-weight: 300;
+    font-size: 0.7rem;
+  }
+  #cardFree_description p{
+    font-size: 0.8rem;
+  }
+  
+  #cardFree_button{
+    display: flex;
+    gap: 2rem;
+  }
+  
+  #cardFree_button button{
+    background-color: #0000ff;
+    font-size: 0.8rem;
+    color: white;
+    width: 100px;
+    border-radius: 10px;
+  }

@@ -1,0 +1,28 @@
+#section7{
+    background-color: #f3f3f3;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    display: flex;
+    justify-content: center;
+  }
+  #section7_content{
+    width: clamp( 320px, 50%, 1500px);
+    margin-top: 50px;
+  }
+  
+  #section7 h2{
+    font-weight: 500;
+    margin: 10px auto;
+    font-size: 1.5rem;
+  }
+  
+  #section7cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    border-top: 1px rgba(128, 128, 128, 0.508) solid;
+  }
+  
+  #section7_content #card5{
+    margin: 10px auto;
+  }

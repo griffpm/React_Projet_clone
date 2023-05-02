@@ -5,6 +5,7 @@ import CardTable from '../CardStory/CardTable'
 
 export default function StoryPage() {
 
+
   return (
     <div id='storyPage_content'>
         <div id='story_content'>

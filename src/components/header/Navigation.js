@@ -25,7 +25,7 @@ export default function Navigation() {
                     <input type="search" placeholder= 'Search' />
                 </div>
                 <div id='nav2_text'>
-                    <a href="/story">Library</a> 
+                    <p><a href="/story">Library</a></p> 
                     <p>Forum</p>
                     <img src="img/svgexport-9.svg"/>    
                 </div>

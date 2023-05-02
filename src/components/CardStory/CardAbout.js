@@ -3,14 +3,14 @@ import CardTag from './CardTag'
 
 export default function CardAbout({text}) {
   return (
-    <div>
-        <div>
+    <div id='CardAbout'>
+        <div id='Sy'>
             <h3>Synopsis</h3>
             <p>{text}</p>
         </div>
-        <div>
+        <div id='Ta'>
             <h3>Tags</h3>
-            <div>
+            <div id='tags'>
                 <CardTag tag="HAREM" />
                 <CardTag tag="ACTION" />
                 <CardTag tag="ADVENTURE" />

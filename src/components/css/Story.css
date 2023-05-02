@@ -1,7 +1,8 @@
 #story_content{
-    background-color: #cccccc;
+    background-color: #f2f2f2;
     display: flex;
     justify-content: center;
+    padding-top: 2rem;
 }
 /*---------------------------------/*/
 #pagedegarde{
@@ -18,42 +19,139 @@
     width: 100%;
     object-fit: cover;
 }
-
-#pdg_text h2{
-    font-weight: 600;
-    font-size: 2rem;
+#pdgtext{
+    margin-left: 2rem; 
+}
+#pdgtext h2{
+    
+    font-weight: 700;
+    font-size: 2.5rem;
 }
 
 #pdgStats{
     display: flex;
+    margin: 10px 0;
+}
+
+#pdgStat{
+    display: flex;
+    gap: 0.5rem;
+    margin-right: 20px;
+}
+
+#pdgStats svg{
+    align-self: center;
+    
+    width: 20px;
+    height: 20px;
+}
+
+#author{
+    color: #808080;
+    margin: 10px 0; 
+}
+
+#author span{
+    color:#7c14ec
 }
 
 #pdgRate{
+    margin: 10px 0;
     display: flex;
+    gap: 0.5rem;
+}
+#pdgRate svg{
+    width: 20px;
+    height: 20px;
 }
 
+
 #pdgButt{
-    margin-top: 3rem;
-    background-color: #5151ff;
-    color: #ffffff;
+    margin: 10px 0;
 }
 
 #but1{
-    width: 100px;
+    background-color: #3838ff;
+    color: white;
+    width: fit-content;
     border-radius: 25px;
-}
-#but2{
-    width: 300px;
-    border-radius: 50px;
+    padding: 5px 10px;
+    margin: 0 10px 0 0;
 }
 
+#but2{
+    background-color: #3838ff;
+    color: white;
+    width: fit-content;
+    border-radius: 25px;
+    padding: 5px 10px;
+    margin: 0 10px 0 0;
+}
+/*-------------------------------------------*/
+#story_content2{
+    display: flex;
+    justify-content: center;
+}
+#AboutOrTable{
+    width: clamp(320px, 50%, 1500px);
+    display: flex;
+    gap: 2rem;
+    margin: 3rem 0;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+#about a :hover{
+    color: #3838ff;
+    text-decoration: underline #3838ff;
+}
+#table a :hover{
+    color: #3838ff;
+    text-decoration: underline #3838ff;
+}
+
+#story_content3{
+    display: flex;
+    justify-content: center;
+}
+
+#content1{
+    width: clamp(320px, 50%, 1500px);
+}
 /*------------------------------------*/
+/* card about*/
+#CardAbout h3{
+    font-size: 2rem;
+    font-weight: 500;
+    margin: 1rem 0;
+}
+
+#Sy{
+    margin: 2rem 0;
+}
+
+#Ta{
+    margin: 2rem 0;
+}
+
+/*-------------------------------------*/
 /*cardtag*/
 
 #CardTag{
     background-color: #ffc0cb;
     color:#ff0055;
+    display: flex;
+    width: fit-content;
+    padding: 5px 10px;
+    border-radius: 25px;
 
+}
+
+#CardTag svg{
+    margin-left: 10px;
+    align-self: center;
+    width: 15px;
+    height: 15px;
 }
 /*------------------------------------*/
 /*Card Table*/
@@ -61,8 +159,10 @@
     display: none;
 }
 #CardTable h3{
-    font-size: 1rem;
-    font-weight: 300;
+    margin: 2rem 0;
+    padding-bottom: 1rem;
+    font-size: 1.5rem;
+    font-weight: 400;
     color: #cd8bff;
     border-bottom: 1px solid #bebebe;
     
@@ -73,8 +173,33 @@
     color: #1f1f1f;
 }
 
+#tags{
+    display: flex;
+    gap: 1rem;
+}
+
 #listeChapter{
     display: grid;
     grid-template-columns: 700px 700px;
     
 }
+
+#cardChapter{
+    border-bottom: 1px solid #cccaca;
+    width: 600px;
+    display: flex;
+    padding: 1rem 0;
+    font-size: 1.25rem;
+}
+
+#cardChapter p span{
+    font-size: 0.9rem;
+    color: #808080;
+}
+
+#CardChapter_content{
+    display: flex;
+    gap: 1.5rem;
+}
+
+

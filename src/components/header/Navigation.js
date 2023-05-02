@@ -9,7 +9,7 @@ export default function Navigation() {
     <header>   
         <nav >
             <div id='nav1' >
-                <img src="img/logo.png" alt="logo" id='logo' />
+                <a href="/"><img src="img/logo.png" alt="logo" id='logo' /></a>
                 <div id='menu_content'>
                     <ul>
                         {dataNav.map((item) => (
@@ -25,7 +25,7 @@ export default function Navigation() {
                     <input type="search" placeholder= 'Search' />
                 </div>
                 <div id='nav2_text'>
-                    <p>Library</p>
+                    <a href="/story">Library</a> 
                     <p>Forum</p>
                     <img src="img/svgexport-9.svg"/>    
                 </div>
